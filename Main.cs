@@ -31,7 +31,7 @@ public class Main : MonoBehaviour
         Orc2 orc2 = orc2Obj.GetComponent<Orc2>();
         if (orc2 != null)
         {
-            orc2.InitializeOrc2("Gorash Orc");
+            orc2.InitializeOrc2("Gorash Orc2");
         }
         monsters.Add(orc2Obj);
 
@@ -39,7 +39,7 @@ public class Main : MonoBehaviour
         Orc3 orc3 = orc3Obj.GetComponent<Orc3>();
         if (orc3 != null)
         {
-            orc3.InitializeOrc3("Gorash Orc");
+            orc3.InitializeOrc3("Gorash Orc3");
         }
         monsters.Add(orc3Obj);
 
@@ -113,4 +113,5 @@ public class Main : MonoBehaviour
         monsterObj.Init(monsterType);
         monsters.Add(monsterObj);
     }*/
+
 }
